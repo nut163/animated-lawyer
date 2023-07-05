@@ -1,0 +1,33 @@
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#navbar {
+  animation: slideIn 1s ease-out;
+}
+
+#footer {
+  animation: fadeIn 2s ease-in;
+}
+
+#contactForm {
+  animation: slideIn 1s ease-out;
+}
+
+#servicesList {
+  animation: fadeIn 2s ease-in;
+}
