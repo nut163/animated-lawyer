@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #3a7bd5;
+    --secondary-color: #34a7a1;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --button-color: #007bff;
+    --button-hover-color: #0056b3;
+    --header-color: #f8f9fa;
+    --footer-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+header {
+    background-color: var(--header-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+}
